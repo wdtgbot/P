@@ -2,6 +2,7 @@
 name: Auto Api Pro
 
 on: 
+  workflow_dispatch:
   release:
     types: [published]
   push:
